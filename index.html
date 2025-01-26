@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>gabby</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="header">
+    <a href="#default" class="logo">♥︎</a>
+    <div class="header-right">
+      <a href="#contact">Contact</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a class="active" href="#home">Home</a>
+    </div>
+  </div>
+  <div class="main-content">
+    <section class="grid">
+      <div class="text" id="home">
+        <div class="hello"><span class="majuscule">H</span>ello I'm <span class=majuscule>G</span>abby</div>
+        <div class="description">This is my website.</div>
+        <div class="resume">
+          <a href="#">My Resume</a>
+        </div>
+      </div>
+      <div class="image-large">
+        <img src="hello.jpg" alt="icon">
+      </div>
+      <div class="image-small"  id="about">
+        <img src="hello.jpg" alt="image">
+      </div>
+      <div class="text-bottom">
+        <div class="aboutme"><span class="aah">A</span>bout Me</div>
+        <ul class="tabs">
+          <li data-tab-target="#Education" class="tab">Education</li>
+          <li data-tab-target="#Organizations" class="tab">Organizations</li>
+          <li data-tab-target="#Competitions" class="tab">Competitions</li>
+        </ul>
+      <div class="tab-content">
+        <div id="Education" data-tab-content class="active">
+          <h1>Education</h1>
+          <div class="school">
+            <img src="witech.jpg" alt="School Logo" class="school-image">
+            <div class="school-text">
+              <p class="school-name">Collège Sismondi</p>
+              <p class="years">Geneva, Switzerland 2026</p>
+              <p class="school-name">St Scholastica's College Manila</p>
+              <p class="years">Manila, Philippines 2022</p>
+              <p class="school-name">Philippine School Oman</p>
+              <p class="years">Muscat, Oman 2019</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div id="Organizations" data-tab-content>
+          <h1>Organizations</h1>
+          <div class="org-info">
+            <img src="witech.jpg" alt="WiTech Logo" class="org-image">
+            <div class="org-text">
+              <p class="org-name">WiTech Batangas</p>
+              <p class="role">Communications Director</p>
+              <p class="org-name">Swiss Tec Ladies</p>
+              <p class="role">Mentoree</p>
+              <p class="org-name">Kode With Klossy</p>
+              <p class="role">Alumni</p>
+            </div>
+          </div>
+        </div>
+        <div id="Competitions" data-tab-content>
+          <h1>Competitions</h1>
+          <div class="school">
+            <img src="witech.jpg" alt="School Logo" class="school-image">
+            <div class="school-text">
+              <p class="school-name">National Geographic Slingshot Challenge</p>
+              <p class="years">Top Award Winner 2024</p>
+              <p class="school-name">Estee Lauder Coding Challenge</p>
+              <p class="years">#1 Web Dev Winner</p>
+              <p class="school-name">TCS Sustainathon</p>
+              <p class="years">Top 10 Finalist</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <style>
